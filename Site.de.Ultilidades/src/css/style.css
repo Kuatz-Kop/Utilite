@@ -1,4 +1,65 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+}
+header{
+ background-color: black;   
+ padding: 0;
+ margin: 0;
+ align-content: center;
+ text-align: center;
+}
 #titulo{
-    font-size: 35px;
+    font-size: 75px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    color: white;
+    padding: 0;
+    margin: 15px;
+}
+#titulo:hover{
+    color: aqua;
+    transition: 3s;
+}
+#sub-titulo{
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+}
+#sub-titulo:hover{
+    color: aqua;
+    transition: 3s;
+}
+
+nav{
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.nav-links{
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.nav-links:hover{
+    color: aqua;
+}
+
+#link-inicio{
+    font-size: 35px;
+    text-align: center;
+}
+.intro{
+    font-size: 15px;
+    text-align: center;
+}
+#aviso-intro{
+    font-size: 20px;
+    text-align: center;
+}
+
+#link-categorias{
+    font-size: 35px;
+    text-align: center;
 }
