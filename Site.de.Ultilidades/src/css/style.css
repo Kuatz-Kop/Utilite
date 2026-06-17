@@ -50,6 +50,11 @@ nav{
     font-size: 35px;
     text-align: center;
 }
+#link-inicio:hover{
+    color: blueviolet;
+    font-size: 40px;
+    transition: 1s;
+}
 .intro{
     font-size: 15px;
     text-align: center;
@@ -62,4 +67,54 @@ nav{
 #link-categorias{
     font-size: 35px;
     text-align: center;
+}
+#link-categorias:hover{
+    color: blueviolet;
+    font-size: 40px;
+    transition: 1s;
+}
+#div-lista-cat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lista-cat{
+    font-size: 40px;
+}
+.links-cat{
+    text-decoration: none;
+    color: black;
+}
+.links-cat:hover{
+    color: aquamarine;
+    transition: 2s;
+}
+.links-cat:visited{
+    text-decoration: none;
+}
+
+#link-suporte{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+#link-suporte:hover{
+    color: blueviolet;
+    font-size: 40px;
+    transition: 1s;
+}
+.texto-suporte{
+    font-size: 25px;
+    text-align: center;
+}
+#gmail-suporte{
+    font-size: 30px;
+    text-align: center;
+}
+#gmail-suporte:hover{
+    color: blue;
+    font-size: 45px;
+    transition: 2s;
 }
